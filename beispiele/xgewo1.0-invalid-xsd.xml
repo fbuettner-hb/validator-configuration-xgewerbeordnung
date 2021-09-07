@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xga:alg.gewerbemeldung.0300 xmlns:xga="http://www.xgewerbeordnung.de/spezifikation/xga/1.0" xmlns:bk="http://www.xgewerbeordnung.de/spezifikation/baukasten/1.0" xmlns:nachr="urn:xoev-de:xunternehmen:standard:basismodul:nachrichtenstruktur"
+   xmlns:antr="urn:xoev-de:xunternehmen:standard:basismodul:antraege-anzeigen" xmlns:wt="urn:xoev-de:xunternehmen:standard:basismodul:wirtschaftlichetaetigkeit" xmlns:lc="urn:xoev-de:kosit:xoev:datentyp:din-spec-91379_2019-03"
+   xmlns:code="http://xoev.de/schemata/code/1_0" xmlns:rf="urn:xoev-de:xunternehmen:standard:basismodul:rechtsform" xmlns:ename="urn:xoev-de:xunternehmen:standard:basismodul:eingetragenername"
+   xmlns:eintr="urn:xoev-de:xunternehmen:standard:basismodul:eintragung" xmlns:adr="urn:xoev-de:xunternehmen:standard:basismodul:adressen" xmlns:kom="urn:xoev-de:xunternehmen:standard:basismodul:kommunikation"
+   xmlns:np="urn:xoev-de:xunternehmen:standard:basismodul:natuerlicheperson" xmlns:dat="urn:xoev-de:xunternehmen:standard:basismodul:datumsangaben" xmlns:jp="urn:xoev-de:xunternehmen:standard:basismodul:juristischeperson"
+   xmlns:rpg="urn:xoev-de:xunternehmen:standard:basismodul:rechtsfaehigepersonengesellschaft" xmlns:gv="urn:xoev-de:xunternehmen:standard:basismodul:gesetzlichervertreter"
+   xmlns:ges="urn:xoev-de:xunternehmen:standard:basismodul:gesellschafter" produkt="XGA-Testsuite" produkthersteller="KoSIT" produktversion="2020" standard="XGewerbeordnung" version="1.0" test="100">
+   <nachr:nachrichtenkopf>
+      <!--<nachr:identifikation.nachricht>
+         <nachr:nachrichtenUUID>00000000-0000-0000-0000-000000000001</nachr:nachrichtenUUID>
+         <nachr:nachrichtentyp listURI="urn:xoev-de:xgewerbeordnung:codeliste:nachrichtentypen" listVersionID="1">
+            <code>0300</code>
+         </nachr:nachrichtentyp>
+         <nachr:erstellungszeitpunkt>2022-09-01T11:58:01.385+02:00</nachr:erstellungszeitpunkt>
+      </nachr:identifikation.nachricht>-->
+      <nachr:leser>
+         <nachr:kommunikationspartnerkennung>
+            <nachr:praefix listVersionID="7" listURI="urn:xoev-de:bund:bmi:bit:codeliste:dvdv.praefix">
+               <code>xgewo</code>
+            </nachr:praefix>
+            <nachr:kennung listURI="urn:xoev-de:xgewerbeordnung:codeliste:weiterekommunikationspartner" listVersionID="2020-06-29">
+               <code>121499900001</code>
+            </nachr:kennung>
+         </nachr:kommunikationspartnerkennung>
+         <nachr:name>Phantasie-Verteilplattform</nachr:name>
+         <kom:kommunikation>
+            <kom:eMail>gewerbe@verteilplattform.cottbus.de</kom:eMail>
+            <kom:webAdresse>https://verteilplattform.cottbus.de</kom:webAdresse>
+         </kom:kommunikation>
+      </nachr:leser>
+      <nachr:autor>
+         <nachr:kommunikationspartnerkennung>
+            <nachr:praefix listVersionID="7" listURI="urn:xoev-de:bund:bmi:bit:codeliste:dvdv.praefix">
+               <code>MELDID</code>
+            </nachr:praefix>
+            <nachr:kennung listURI="urn:de:bund:destatis:bevoelkerungsstatistik:schluessel:ags" listVersionID="2018-01-31">
+               <code>12052000</code>
+            </nachr:kennung>
+         </nachr:kommunikationspartnerkennung>
+         <nachr:name>Gewerbeamt Cottbus</nachr:name>
+         <kom:kommunikation>
+            <kom:telefon>0355 - 6122840</kom:telefon>
+            <kom:eMail>miriam.musterfrau@cottbus.de</kom:eMail>
+         </kom:kommunikation>
+      </nachr:autor>
+   </nachr:nachrichtenkopf>
+   <xga:satz>
+      <xga:anmeldung>
+         <xga:autor>
+            <nachr:kommunikationspartnerkennung>
+               <nachr:praefix listVersionID="7" listURI="urn:xoev-de:bund:bmi:bit:codeliste:dvdv.praefix">
+                  <code>MELDID</code>
+               </nachr:praefix>
+               <nachr:kennung listURI="urn:de:bund:destatis:bevoelkerungsstatistik:schluessel:ags" listVersionID="2018-01-31">
+                  <code>12052000</code>
+               </nachr:kennung>
+            </nachr:kommunikationspartnerkennung>
+            <nachr:name>Gewerbeamt Cottbus</nachr:name>
+            <kom:kommunikation>
+               <kom:telefon>+49 355 6122840</kom:telefon>
+               <kom:eMail>miriam.musterfrau@cottbus.de</kom:eMail>
+            </kom:kommunikation>
+         </xga:autor>
+         <xga:satzErstellung>2022-07-04T17:54:42.000+00:00</xga:satzErstellung>
+         <xga:ereigniszeitpunkt>2022-07-04T15:00:42.000+00:00</xga:ereigniszeitpunkt>
+         <xga:istKorrektur>false</xga:istKorrektur>
+         <?illustriert A?>
+         <xga:gemeindeSchluessel listVersionID="2020-03-31">
+            <code>12052000</code>
+         </xga:gemeindeSchluessel>
+         <xga:uuid>5687CF4A-5C7B-43F1-933E-E5A7F69F7967</xga:uuid>
+         <xga:gueltigAb>2022-08-01</xga:gueltigAb>
+         <xga:datumMeldung>2022-07-02</xga:datumMeldung>
+         <?illustriert B?>
+         <xga:gewerbebetrieb>
+            <?illustriert B?>
+            <xga:gewerbebetriebID>0c9003a6-5b4f-4a99-98ae-b2b915708c1d</xga:gewerbebetriebID>
+            <?illustriert B?>
+            <xga:gemeindeMeldungNr>2015 1023</xga:gemeindeMeldungNr>
+            <rf:rechtsform>
+               <rf:rechtsformcode listVersionID="1">
+                  <code>170</code>
+               </rf:rechtsformcode>
+            </rf:rechtsform>
+            <wt:wirtschaftlichTaetiger.id>np-1</wt:wirtschaftlichTaetiger.id>
+            <ename:eingetragenerName>Tibor Pick e.K.</ename:eingetragenerName>
+            <bk:eintragung>
+               <eintr:artEintragung>
+                  <code>A</code>
+               </eintr:artEintragung>
+               <eintr:registergericht listVersionID="10">
+                  <code>G1103</code>
+               </eintr:registergericht>
+               <eintr:eintragungsnummer>11111</eintr:eintragungsnummer>
+            </bk:eintragung>
+            <xga:betriebsstaette>
+               <wt:artOrt listVersionID="1">
+                  <code>1</code>
+               </wt:artOrt>
+               <bk:anschrift>
+                  <bk:strassenanschriftInland>
+                     <adr:strasse>Spremberger Str.</adr:strasse>
+                     <bk:strassenschluessel>0000001801</bk:strassenschluessel>
+                     <bk:hausnummerVon>90</bk:hausnummerVon>
+                     <adr:postleitzahl>03046</adr:postleitzahl>
+                     <adr:ort>Cottbus</adr:ort>
+                  </bk:strassenanschriftInland>
+               </bk:anschrift>
+            </xga:betriebsstaette>
+            <xga:taetigkeitenGesamt>
+               <xga:schwerpunkt>
+                  <xga:taetigkeitSchwerpunkt>Friseur</xga:taetigkeitSchwerpunkt>
+                  <xga:taetigkeitSchluessel>96021</xga:taetigkeitSchluessel>
+                  <xga:stichwort>Friseurgewerbe (Damen- und Herrenfriseursalons)</xga:stichwort>
+               </xga:schwerpunkt>
+               <xga:weitereTaetigkeiten>
+                  <xga:taetigkeitenZusammengefasst>Verkauf von Haarpflegeprodukten|Make-up-Beratung</xga:taetigkeitenZusammengefasst>
+                  <xga:taetigkeit>
+                     <xga:taetigkeitEinzeln>Verkauf von Haarpflegeprodukten</xga:taetigkeitEinzeln>
+                     <xga:taetigkeitSchluessel>47750</xga:taetigkeitSchluessel>
+                     <xga:stichwort>Haarbehandlungsmittel, zubereitete, Einzelhandel</xga:stichwort>
+                  </xga:taetigkeit>
+                  <xga:taetigkeit>
+                     <xga:taetigkeitEinzeln>Make-up-Beratung</xga:taetigkeitEinzeln>
+                     <xga:taetigkeitSchluessel>96022</xga:taetigkeitSchluessel>
+                     <xga:stichwort>Typstylist</xga:stichwort>
+                  </xga:taetigkeit>
+               </xga:weitereTaetigkeiten>
+            </xga:taetigkeitenGesamt>
+            <xga:gewerbetreibender>
+               <xga:gewerbetreibender.id>np-1</xga:gewerbetreibender.id>
+               <xga:istNebenerwerb>true</xga:istNebenerwerb>
+            </xga:gewerbetreibender>
+            <xga:anzahlVollzeitBeschaeftigte>0</xga:anzahlVollzeitBeschaeftigte>
+            <xga:anzahlTeilzeitBeschaeftigte>2</xga:anzahlTeilzeitBeschaeftigte>
+            <xga:istReisegewerbe>false</xga:istReisegewerbe>
+            <xga:istNebenerwerb>false</xga:istNebenerwerb>
+            <xga:beteiligungOeffentlicheHand>
+               <code>0</code>
+            </xga:beteiligungOeffentlicheHand>
+            <xga:betriebArt>
+               <xga:industrie>false</xga:industrie>
+               <xga:handwerk>true</xga:handwerk>
+               <xga:handel>false</xga:handel>
+               <xga:sonstiges>false</xga:sonstiges>
+            </xga:betriebArt>
+            <xga:handwerkskarte>
+               <xga:status>
+                  <code>1</code>
+               </xga:status>
+               <xga:ausgestelltAm>2012-03-01</xga:ausgestelltAm>
+               <xga:ausgestelltVonPLZ>03046</xga:ausgestelltVonPLZ>
+               <xga:ausgestelltVonOrt>Cottbus</xga:ausgestelltVonOrt>
+               <xga:ausgestelltVonSchluessel listVersionID="5">
+                  <code>00007</code>
+               </xga:ausgestelltVonSchluessel>
+            </xga:handwerkskarte>
+         </xga:gewerbebetrieb>
+         <xga:referenzierteSubjekte>
+            <xga:natuerlichePerson>
+               <np:natuerlichePerson.id>np-1</np:natuerlichePerson.id>
+               <np:name>
+                  <np:familienname>Pick</np:familienname>
+                  <np:geburtsname>Rodríguez</np:geburtsname>
+                  <np:vornamen>Tibor</np:vornamen>
+               </np:name>
+               <bk:geburt>
+                  <np:geburtsdatum>
+                     <dat:datum>1965-10-12</dat:datum>
+                  </np:geburtsdatum>
+                  <adr:ort>Santiago</adr:ort>
+                  <bk:staat>Chile</bk:staat>
+               </bk:geburt>
+               <np:geschlecht>
+                  <code>m</code>
+               </np:geschlecht>
+               <np:staatsangehoerigkeit listVersionID="2020-05-11">
+                  <code>332</code>
+               </np:staatsangehoerigkeit>
+               <bk:anschrift>
+                  <bk:strassenanschriftInland>
+                     <adr:strasse>Ewald-Hase-Str.</adr:strasse>
+                     <bk:hausnummerVon>4</bk:hausnummerVon>
+                     <adr:postleitzahl>03044</adr:postleitzahl>
+                     <adr:ort>Cottbus</adr:ort>
+                  </bk:strassenanschriftInland>
+               </bk:anschrift>
+               <bk:kommunikation>
+                  <kom:telefon>+49 355 141455</kom:telefon>
+               </bk:kommunikation>
+               <xga:aufenthaltstitel>
+                  <xga:status>
+                     <code>1</code>
+                  </xga:status>
+                  <xga:ausgestelltAm>2002-01-02</xga:ausgestelltAm>
+                  <xga:ausgestelltVonName>Stadt Cottbus</xga:ausgestelltVonName>
+                  <xga:ausgestelltVonPLZ>03044</xga:ausgestelltVonPLZ>
+                  <xga:ausgestelltVonOrt>Cottbus</xga:ausgestelltVonOrt>
+               </xga:aufenthaltstitel>
+            </xga:natuerlichePerson>
+         </xga:referenzierteSubjekte>
+         <xga:grundAnmeldungSchluessel>
+            <code>01</code>
+         </xga:grundAnmeldungSchluessel>
+      </xga:anmeldung>
+   </xga:satz>
+</xga:alg.gewerbemeldung.0300>

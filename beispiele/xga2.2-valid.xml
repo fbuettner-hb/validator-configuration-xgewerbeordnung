@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xga:sta.gewerbemeldung.0100 xmlns:xga="http://www.xgewerbeanzeige.de/spezifikation/2.2"
+                             produkt="XGA-Testsuite"
+                             produkthersteller="KoSIT"
+                             produktversion="2020"
+                             standard="XGewerbeanzeige"
+                             version="2.2"
+                             test="100">
+   <xga:nachrichtenkopf>
+      <xga:identifikation.nachricht>
+         <xga:nachrichtenUUID>00000000-0000-0000-0000-000000000001</xga:nachrichtenUUID>
+         <xga:nachrichtentyp>
+            <code>0100</code>
+         </xga:nachrichtentyp>
+         <xga:erstellungszeitpunkt>2020-09-01T11:58:01.385+02:00</xga:erstellungszeitpunkt>
+      </xga:identifikation.nachricht>
+      <xga:leser>
+         <xga:behoerdenkennung>
+            <xga:praefix listVersionID="7"
+                         listURI="urn:xoev-de:bund:bmi:bit:codeliste:dvdv.praefix">
+               <code>xga</code>
+            </xga:praefix>
+            <xga:kennung listURI="urn:xoev-de:xgewerbeanzeige:codeliste:weiterekommunikationspartner"
+                         listVersionID="2020-06-29">
+               <code>491000000000</code>
+            </xga:kennung>
+         </xga:behoerdenkennung>
+         <xga:erreichbarkeit>
+            <xga:kanal listVersionID="3" listURI="urn:de:xoev:codeliste:erreichbarkeit">
+               <code>01</code>
+            </xga:kanal>
+            <xga:kennung>miriam.musterfrau@statistik.bayern.de</xga:kennung>
+         </xga:erreichbarkeit>
+         <xga:erreichbarkeit>
+            <xga:kanal listVersionID="3" listURI="urn:de:xoev:codeliste:erreichbarkeit">
+               <code>09</code>
+            </xga:kanal>
+            <xga:kennung>https://www.statistik.bayern.de/</xga:kennung>
+         </xga:erreichbarkeit>
+         <xga:anschrift>
+            <xga:strasse>Teststraße</xga:strasse>
+            <xga:hausNr>42</xga:hausNr>
+            <xga:ort>Teststadt</xga:ort>
+            <xga:plz>01337</xga:plz>
+         </xga:anschrift>
+         <xga:behoerdenname>Bayerisches Landesamt für Statistik - Sammelstelle Statistik</xga:behoerdenname> 
+      </xga:leser>
+      <xga:autor>
+         <xga:behoerdenkennung>
+            <xga:praefix listVersionID="7"
+                         listURI="urn:xoev-de:bund:bmi:bit:codeliste:dvdv.praefix">
+               <code>MELDID</code>
+            </xga:praefix>
+            <xga:kennung listURI="urn:de:bund:destatis:bevoelkerungsstatistik:schluessel:ags"
+                         listVersionID="2018-01-31">
+               <code>12052000</code>
+            </xga:kennung>
+         </xga:behoerdenkennung>
+         <xga:erreichbarkeit>
+            <xga:kanal listVersionID="3" listURI="urn:de:xoev:codeliste:erreichbarkeit">
+               <code>01</code>
+            </xga:kanal>
+            <xga:kennung>miriam.musterfrau@cottbus.de</xga:kennung>
+         </xga:erreichbarkeit>
+         <xga:erreichbarkeit>
+            <xga:kanal listVersionID="3" listURI="urn:de:xoev:codeliste:erreichbarkeit">
+               <code>02</code>
+            </xga:kanal>
+            <xga:kennung>0355 - 6122840</xga:kennung>
+         </xga:erreichbarkeit>
+         <xga:anschrift>
+            <xga:strasse>Karl-Marx-Str.</xga:strasse>
+            <xga:hausNr>67</xga:hausNr>
+            <xga:ort>Cottbus</xga:ort>
+            <xga:plz>03044</xga:plz>
+         </xga:anschrift>
+         <xga:behoerdenname>Gewerbeamt Cottbus</xga:behoerdenname> 
+      </xga:autor>
+   </xga:nachrichtenkopf>
+   <!-- Testfall 01.002 | Datensatz A | Meldungsart: Anmeldung | Zustand: alpha -->
+   <xga:satz>
+      <xga:anmeldung>
+         <xga:satzErstellung>2016-07-04T17:54:42.000+00:00</xga:satzErstellung>
+         <xga:ereigniszeitpunkt>2016-07-04T15:00:42.000+00:00</xga:ereigniszeitpunkt>
+         <!-- Autor auf Satzebene -->
+         <xga:autor>
+            <xga:behoerdenkennung>
+               <xga:praefix listVersionID="7"
+                            listURI="urn:xoev-de:bund:bmi:bit:codeliste:dvdv.praefix">
+                  <code>MELDID</code>
+               </xga:praefix>
+               <xga:kennung listURI="urn:de:bund:destatis:bevoelkerungsstatistik:schluessel:ags"
+                            listVersionID="2018-01-31">
+                  <code>12052000</code>
+               </xga:kennung>
+            </xga:behoerdenkennung>
+            <xga:erreichbarkeit>
+               <xga:kanal listVersionID="3" listURI="urn:de:xoev:codeliste:erreichbarkeit">
+                  <code>01</code>
+               </xga:kanal>
+               <xga:kennung>miriam.musterfrau@cottbus.de</xga:kennung>
+            </xga:erreichbarkeit>
+            <xga:erreichbarkeit>
+               <xga:kanal listVersionID="3" listURI="urn:de:xoev:codeliste:erreichbarkeit">
+                  <code>02</code>
+               </xga:kanal>
+               <xga:kennung>0355 - 6122840</xga:kennung>
+            </xga:erreichbarkeit>
+            <xga:anschrift>
+               <xga:strasse>Karl-Marx-Str.</xga:strasse>
+               <xga:hausNr>67</xga:hausNr>
+               <xga:ort>Cottbus</xga:ort>
+               <xga:plz>03044</xga:plz>
+            </xga:anschrift>
+            <xga:behoerdenname>Gewerbeamt Cottbus</xga:behoerdenname> 
+         </xga:autor>
+         <xga:istKorrektur listURI="urn:xoev-de:xgewerbeanzeige:codeliste:janein"
+                           listVersionID="1">
+            <code>0</code>
+         </xga:istKorrektur>
+         <xga:gemeindeSchluessel listURI="urn:de:bund:destatis:bevoelkerungsstatistik:schluessel:ags"
+                                 listVersionID="2020-03-31">
+            <code>12052000</code>
+         </xga:gemeindeSchluessel>
+         <xga:gemeindeMeldungNr>2015 1023</xga:gemeindeMeldungNr>
+         <xga:gewerbebetriebID>0c9003a6-5b4f-4a99-98ae-b2b915708c1d</xga:gewerbebetriebID>
+         <xga:uuid>5687CF4A-5C7B-43F1-933E-E5A7F69F7967</xga:uuid>
+         <xga:gewerbe>
+            <xga:betrieb>
+               <xga:ID>1</xga:ID>
+               <xga:eingetragenerName>Tibor Pick e.K.</xga:eingetragenerName>
+               <xga:eintragungNr>11111</xga:eintragungNr>
+               <xga:eintragungArt listURI="urn:xoev-de:xgewerbeanzeige:codeliste:artdereintragung"
+                                  listVersionID="2">
+                  <code>A</code>
+               </xga:eintragungArt>
+               <xga:gerichtSchluessel listURI="urn:xoev-de:xgewerbeanzeige:codeliste:registergerichte"
+                                      listVersionID="10">
+                  <code>G1103</code>
+               </xga:gerichtSchluessel>
+               <xga:rechtsformSchluessel listURI="urn:xoev-de:xgewerbeanzeige:codeliste:rechtsformen"
+                                         listVersionID="6">
+                  <code>170</code>
+               </xga:rechtsformSchluessel>
+            </xga:betrieb>
+            <xga:anzahlVollzeitBeschaeftigte>0</xga:anzahlVollzeitBeschaeftigte>
+            <xga:anzahlTeilzeitBeschaeftigte>2</xga:anzahlTeilzeitBeschaeftigte>
+            <xga:betriebArt>
+               <xga:industrie listURI="urn:xoev-de:xgewerbeanzeige:codeliste:janein"
+                              listVersionID="1">
+                  <code>0</code>
+               </xga:industrie>
+               <xga:handwerk listURI="urn:xoev-de:xgewerbeanzeige:codeliste:janein"
+                             listVersionID="1">
+                  <code>1</code>
+               </xga:handwerk>
+               <xga:handel listURI="urn:xoev-de:xgewerbeanzeige:codeliste:janein"
+                           listVersionID="1">
+                  <code>0</code>
+               </xga:handel>
+               <xga:sonstiges listURI="urn:xoev-de:xgewerbeanzeige:codeliste:janein"
+                              listVersionID="1">
+                  <code>0</code>
+               </xga:sonstiges>
+            </xga:betriebArt>
+            <xga:niederlassungArt listURI="urn:xoev-de:xgewerbeanzeige:codeliste:artderniederlassung"
+                                  listVersionID="1">
+               <code>1</code>
+            </xga:niederlassungArt>
+            <xga:istReisegewerbe listURI="urn:xoev-de:xgewerbeanzeige:codeliste:janein"
+                                 listVersionID="1">
+               <code>0</code>
+            </xga:istReisegewerbe>
+            <xga:istNebenerwerb listURI="urn:xoev-de:xgewerbeanzeige:codeliste:janein"
+                                listVersionID="1">
+               <code>0</code>
+            </xga:istNebenerwerb>
+            <xga:handwerkskarte>
+               <xga:status listURI="urn:xoev-de:xgewerbeanzeige:codeliste:status"
+                           listVersionID="1">
+                  <code>1</code>
+               </xga:status>
+               <xga:ausgestelltAm>2012-03-01</xga:ausgestelltAm>
+               <xga:ausgestelltVonPLZ>03046</xga:ausgestelltVonPLZ>
+               <xga:ausgestelltVonOrt>Cottbus</xga:ausgestelltVonOrt>
+               <xga:ausgestelltVonSchluessel listURI="urn:xoev-de:kosit:codeliste:handwerkskammern"
+                                             listVersionID="6">
+                  <code>00007</code>
+               </xga:ausgestelltVonSchluessel>
+            </xga:handwerkskarte>
+            <xga:anschrift>
+               <xga:strasse>Spremberger Str.</xga:strasse>
+               <xga:strassenschluessel>0000001801</xga:strassenschluessel>
+               <xga:hausNrVon>90</xga:hausNrVon>
+               <xga:ort>Cottbus</xga:ort>
+               <xga:plz>03046</xga:plz>
+               <xga:nationSchluessel listURI="urn:xoev-de:kosit:codeliste:country-codes" listVersionID="4">
+                  <code>276</code>
+               </xga:nationSchluessel>
+            </xga:anschrift>
+            <xga:beteiligtePerson>
+               <xga:personFunktion listURI="urn:xoev-de:xgewerbeanzeige:codeliste:funktioneinerperson"
+                                   listVersionID="1">
+                  <code>1</code>
+               </xga:personFunktion>
+               <xga:familienname>Pick</xga:familienname>
+               <xga:vorname>Tibor</xga:vorname>
+               <xga:geschlecht listURI="urn:xoev-de:xgewerbeanzeige:codeliste:geschlecht"
+                               listVersionID="3">
+                  <code>1</code>
+               </xga:geschlecht>    
+               <xga:staatangehoerigkeiten>
+                  <xga:staatsangehoerigkeitSchluessel listURI="urn:de:bund:destatis:bevoelkerungsstatistik:schluessel:staatsangehoerigkeit"
+                                                      listVersionID="2020-05-11">
+                     <code>332</code>
+                  </xga:staatsangehoerigkeitSchluessel>
+               </xga:staatangehoerigkeiten>   
+            </xga:beteiligtePerson> 
+         </xga:gewerbe>
+         <xga:gueltigAb>2016-08-01</xga:gueltigAb>
+         <xga:datumMeldung>2016-07-02</xga:datumMeldung>
+         <xga:taetigkeitenGesamt>
+            <xga:schwerpunkt>
+               <xga:taetigkeitSchwerpunkt>Friseur</xga:taetigkeitSchwerpunkt>
+               <xga:taetigkeitSchluessel>96021</xga:taetigkeitSchluessel>
+               <xga:stichwort>Friseurgewerbe (Damen- und Herrenfriseursalons)</xga:stichwort>
+            </xga:schwerpunkt>
+            <xga:weitereTaetigkeiten>
+               <xga:taetigkeitenZusammengefasst>Verkauf von Haarpflegeprodukten|Make-up-Beratung</xga:taetigkeitenZusammengefasst>
+               <xga:taetigkeit> 
+                  <xga:taetigkeitSchluessel>47750</xga:taetigkeitSchluessel>
+                  <xga:stichwort>Haarbehandlungsmittel, zubereitete, Einzelhandel</xga:stichwort>
+               </xga:taetigkeit>
+               <xga:taetigkeit> 
+                  <xga:taetigkeitSchluessel>96022</xga:taetigkeitSchluessel>
+                  <xga:stichwort>Typstylist</xga:stichwort>
+               </xga:taetigkeit>
+            </xga:weitereTaetigkeiten>
+         </xga:taetigkeitenGesamt>
+         <xga:grundAnmeldungSchluessel listURI="urn:xoev-de:xgewerbeanzeige:codeliste:grundfueranmeldung"
+                                       listVersionID="2">
+            <code>01</code>
+         </xga:grundAnmeldungSchluessel>
+      </xga:anmeldung>
+   </xga:satz>
+</xga:sta.gewerbemeldung.0100>
